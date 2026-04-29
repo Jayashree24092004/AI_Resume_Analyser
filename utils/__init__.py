@@ -1,5 +1,5 @@
 from utils.file_parser import parse_uploaded_file
-from utils.openai_api import analyse_resume
+from utils.local_model import analyse_resume
 from utils.helpers import (
     get_score_band,
     get_field_color,
